@@ -1,0 +1,67 @@
+h1 {
+    /* body ir selektors */
+    background: #eee;
+    color: green;
+    font-size: 50px;
+
+    /* border-width: 3px;
+    border-color: #0000ff;
+    border-style: solid; */
+
+    border: 3px blue solid;
+
+    width: 500px;
+    /* max-width: 500px; */
+    /* bieži lieto attēliem, jo pielāgojas web lapas lielumam, kad to maina no lielas uz puslapu utt. */
+    height: 80px;
+
+    overflow: hidden;
+
+    text-align:  center;
+    line-height: 80px;
+    /* deklarācija ir viss sekojošais*/
+    /* margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40p;vai arī.... */
+    /* margin: 10px 20px 30px 40px; */
+    /* margin: 20px (uz augšu, leju) 40px (pa labi, pa kreisi) */
+    /* ja ir 3 norādes - pa kreisi viņš neņem */
+    /* margin: 20px; */
+    /* margin-top: 50px; */
+
+    /* padding: 60px; */
+    /* float: right; */
+    /* float padara visu elementus blokā kā rindas elementus */
+}
+    .super-special{
+        width: 100px;
+        height: 100px;
+        background: rgba(255, 0, 0);
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        font-size: 50px;
+        color: blue;
+        /* opacity: 0.5; */
+}
+.special1 {
+    color: blueviolet;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    border-radius: 50px;
+}
+.special2 {
+    left: 50px;
+    background: blue;
+    z-index: 1;
+}
+.special3 {
+    left: 25px;
+    top: 50px;
+    background: green;
+}
+/* tie left, top u.c. deklarācijas, kas parādās menu ar "-" zīmi, ir eksperimentālie */

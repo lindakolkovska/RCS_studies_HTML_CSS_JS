@@ -1,0 +1,37 @@
+div {
+color: green;
+}
+/* varēja nevis visu atsevišķ, bet kopā taisīt zaļu ar "*" */
+p:nth-child(2) {
+    color: green;
+}
+p:nth-child(3) { 
+    /* .red-p {} */
+    color: red;
+}
+p:nth-child(4) {
+    color: green;
+}
+p:nth-child(5) {
+    /* .blue-p {} */
+    color: blue;
+}
+.blue-p span {
+color: yellow;
+}
+p:nth-child(6) {
+    color: green;
+}
+strong span {
+    color: pink;
+}
+[data-foo] {
+    color: violet;
+}
+p:nth-child(8) {
+    color: green;
+}
+.super-strange-paragraph:hover span {
+    /* sākums ir bez span, jo pirmā daļa atbild par to, kas reaģēs uz peles kustību, pēc hover nosaka, KAS tieši mainās  */
+color: red;
+}
