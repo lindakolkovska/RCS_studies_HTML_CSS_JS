@@ -143,10 +143,11 @@
 // var cars = ['vaz', 'gaz', 'zaz', 'maz', 'uaz', 'bmw']; //index būtībā ir kkas pēc kārtas
 //     console.log(cars[3]);
 
-    var cars = ['vaz', 'gaz', 'zaz', 'maz', 'uaz', 'bmw']; //index būtībā ir kkas pēc kārtas
-for (var index = 0; index < cars.lenght; index++) {
-    car = cars[index];
-    if (index == 2) {               // ja vajag, lai izdruka visus, izņemot vienu, tad pieraksts ir --- if (index != 2)
-    console.log(car);               // esošais pieraksts 
-    }
-}
+//     var cars = ['vaz', 'gaz', 'zaz', 'maz', 'uaz', 'bmw']; //index būtībā ir kkas pēc kārtas
+// for (var index = 0; index < cars.lenght; index++) {
+//     car = cars[index];
+//     if (index == 2) {               // ja vajag, lai izdruka visus, izņemot vienu, tad pieraksts ir --- if (index != 2)
+//     console.log(car);               // esošais pieraksts 
+//     }
+// }
+

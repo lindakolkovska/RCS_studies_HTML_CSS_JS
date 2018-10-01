@@ -1,0 +1,27 @@
+#nav {
+    background-image: url("http://www.lnmm.lv/resources/web/preses_relizes/2016/KOP%C4%92J%C4%80S/LNMM_projektu_konkurss/Nosledzies/ANaumovs_Cannes.jpg");
+    background-color: #cccccc;
+}
+
+.nav-link {
+    color: beige
+}
+
+#info {
+    color:rgb(230, 148, 66);
+}
+#breadcrumb {
+    background-color: transparent;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+footer { 
+    display: block;
+    border-top-style: solid;
+    border-width: 1px;
+    color: black;
+}
